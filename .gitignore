@@ -1,0 +1,16 @@
+# Genel ignore edilecek dosyalar
+node_modules/
+.env
+.DS_Store
+
+# Frontend için ignore edilecekler
+frontend/node_modules/
+frontend/.env
+frontend/.next/
+frontend/out/
+frontend/build/
+
+# Backend için ignore edilecekler
+backend/node_modules/
+backend/.env
+backend/dist/
